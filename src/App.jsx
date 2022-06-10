@@ -4,6 +4,7 @@ import './App.css';
 
 function App() {
   const [data, setData] = useState({});
+
   useEffect(() => {
     fetch('https://jsonplaceholder.typicode.com/posts/1')
       .then((response) => response.json())
@@ -12,6 +13,7 @@ function App() {
         setData(json)
       });
   }, [])
+  
   return (
     <div className='App'>
       <h1>

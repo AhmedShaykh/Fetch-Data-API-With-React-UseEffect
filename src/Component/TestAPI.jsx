@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 
 const TestAPI = () => {
     const [repos, setRepos] = useState([{}]);
+    
     useEffect(() => {
-
         async function getRepos() {
             const response = await fetch('https://api.github.com/users/AhmedShaykh/repos');
             const data = await response.json();
