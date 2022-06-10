@@ -17,9 +17,9 @@ function App() {
       <h1>
         Fetch Data API With React UseEffect
       </h1>
-      <h2>
+      <h3>
         {data.title}
-      </h2>
+      </h3>
       <TestAPI />
     </div>
   );
