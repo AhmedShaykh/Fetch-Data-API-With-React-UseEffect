@@ -15,7 +15,7 @@ function App() {
   return (
     <div className='App'>
       <h1>
-        Test API
+        Fetch Data API With React UseEffect
       </h1>
       <h2>
         {data.title}
