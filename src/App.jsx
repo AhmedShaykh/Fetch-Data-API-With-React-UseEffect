@@ -13,7 +13,7 @@ function App() {
         setData(json)
       });
   }, [])
-  
+
   return (
     <div className='App'>
       <h1>
